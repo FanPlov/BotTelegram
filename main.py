@@ -7,7 +7,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 # Получаем токен из настроек Railway (Environment Variables)
 TOKEN = os.getenv("BOT_TOKEN")
 # Ссылка на твой сайт (замени на свою реальную ссылку)
-WEB_APP_URL = "http://t.me/PizzaAsistBot/PizzaAssist" 
+WEB_APP_URL = "https://subtle-malabi-1fcd38.netlify.app/" 
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
